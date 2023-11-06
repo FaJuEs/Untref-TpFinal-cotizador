@@ -55,7 +55,7 @@ function Form() {
     <>
     <div className="container">
       <div id="form"className="form">
-        <br /><br /><h1>Completa los datos solicitados</h1><br /><br />
+        <br /><br /><h2>Completa los datos solicitados</h2><br /><br />
         <form
           className="formulario"
           onSubmit={cotizar}
@@ -65,10 +65,10 @@ function Form() {
           <UbicSelect />
 
           <InputMetros />
-        <br /> <br /> <button className="btn  btn-outline-dark">Cotizar</button>
+         <br /> <button className="btn  btn-outline-dark">Cotizar</button>
         </form>
 
-        <br /><p>
+        <p>
           Valor de Póliza: $<span id="valorPoliza">0.00</span>
         </p>
       </div>
