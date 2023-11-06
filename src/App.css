@@ -31,10 +31,12 @@ main {
 h1 {
   font-weight: 400;
   color: whitesmoke;
+  font-size: 4rem;
 }
 
 #form h1 {
-  font-size: x-large;
+  font-weight: 400;
+  font-size: 4rem;
   color: black;
   text-decoration: underline;
 }
