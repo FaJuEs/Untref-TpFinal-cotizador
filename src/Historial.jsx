@@ -8,7 +8,7 @@ function Historial() {
       <h1>Historial  📋</h1>
       <Cuadro />
       <Link to={"/"}>
-        <button id="volver" className="btn btn-dark">VOLVER </button>
+        <button id="volver" className="btn btn-dark">🔙​ VOLVER </button>
       </Link>
     </>
   );
