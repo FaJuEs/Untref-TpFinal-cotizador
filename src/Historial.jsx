@@ -4,8 +4,10 @@ import Cuadro from "./Componentes/Cuadro";
 
 function Historial() {
   return (
-    <><br /><br />
+    <>
+    <br /> <br />
       <h1>Historial  📋</h1>
+      <br />
       <Cuadro />
       <Link to={"/"}>
         <button id="volver" className="btn btn-dark">🔙​ VOLVER </button>

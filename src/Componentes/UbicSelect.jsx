@@ -14,7 +14,7 @@ function UbicacionSelect() {
 
     return (
         <>
-           <br /> <br /><label htmlFor="ubicacion">Selecciona su ubicación</label>
+            <br /><label htmlFor="ubicacion">Selecciona su ubicación</label>
             <select className="input-text" id="ubicacion" onChange={handleChange} required>
                 <option value="" disabled="">...</option>
                 {ubicaciones.map((ubicacion) => (

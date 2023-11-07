@@ -3,11 +3,17 @@
 @import url("https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css");
 
 #root {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://media.istockphoto.com/id/1420940586/es/foto/concepto-de-seguro-protecci%C3%B3n-ante-una-posible-eventualidad-icono-de-paraguas-sostenido-a-mano.webp?b=1&s=170667a&w=0&k=20&c=WztIG_jbKUuTSFjdoz4CXig-BDaKZX30QOUaWQTbBZ4=);
   max-width: 1280px;
+  height: 935px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
+
+
 
 * {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -53,16 +59,17 @@ label {
   /*background-color: antiquewhite;*/
 }
 
-div.form {
+div .form{
   margin: auto;
-  max-width: 900px;
-  background-color: whitesmoke !important;
-  margin-left: 12%;
-  margin-right: 5%;
-  padding: 10px;
-  border-color: whitesmoke;
-  box-shadow: 30px 30px 18px -9px rgba(110, 5, 5, 0.15);
-  border-radius: 20px;
+    max-width: 900px;
+    background-color: #c3bed1 !important;
+    opacity: 0.7;
+    margin-left: 8%;
+    margin-right: 5%;
+    padding: 10px;
+    border-color: #2b2828;
+    box-shadow: 30px 30px 18px -9px rgb(110 5 5 / 47%);
+    border-radius: 20px;
 }
 
 select {
@@ -71,37 +78,44 @@ select {
 
 input {
   max-width: 65%;
+  border-color: rgb(23 22 24);
+}
+
+#ubicacion.input-text {
+  background-color:white;
+  border: solid 2px;
+ /* border-color: rgb(187, 119, 250);*/
+  border-radius: 10px;
+ border-color:  rgb(23 22 24);
 }
 
 #propiedad.input-text {
-  background-color: aliceblue;
+  background-color: white;
   border: solid 2px;
-  border-color: rgb(187, 119, 250);
-  border-radius: 10px;
-}
-
-.input-text {
-  background-color: aliceblue;
-  border: solid 2px;
-  border-color: rgb(187, 119, 250);
+  border-color: rgb(23 22 24);
   border-radius: 10px;
 }
 
 #metros2.input-text {
-  background-color: aliceblue;
+  background-color:white;
   border: solid 2px;
-  border-color: rgb(187, 119, 250);
+  /*border-color: rgb(187, 119, 250);*/
+  border-color: rgb(23 22 24);
   border-radius: 10px;
 }
 
+p{
+  color:black ;
+  opacity: 1;
+}
 th {
   color: black;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2rem;
 }
 
 table {
-  color: aliceblue !important;
+  color: aliceblue;
   border: solid 1px;
   padding-left: 2%;
   padding-right: 2%;
@@ -116,6 +130,7 @@ button {
   color: black !important;
   border-radius: 10px;
   box-shadow: 10px 8px 8px -2px rgba(110, 5, 5, 0.15);
+  border-color: rgb(23 22 24);
 }
 button:hover {
   color: white !important;
